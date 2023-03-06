@@ -25,4 +25,4 @@ export const enum VideoType {
     MPD = "mpd",
 }
 
-export const checkBufferingInterval = 100; // ms
+export const checkStateInterval = 100; // ms
