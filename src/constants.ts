@@ -13,10 +13,10 @@ export const statesMap: Partial<Record<keyof GlobalEventHandlersEventMap, State>
     ended: State.ENDED,
     loadeddata: State.READY,
     loadstart: State.LOADING,
-    pause: State.PAUSE,
-    playing: State.PLAYING,
-    seeking: State.SEEKING,
-    //waiting: State.BUFFERING,
+    //pause: State.PAUSE, // implemented basing on currentTime
+    //playing: State.PLAYING, // implemented basing on currentTime
+    //seeking: State.SEEKING, // implemented basing on currentTime
+    //waiting: State.BUFFERING, // implemented basing on currentTime
 };
 
 export const enum VideoType {
