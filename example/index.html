@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Video Player Test</title>
+</head>
+<body>
+<video controls height="360" width="640"></video>
+<label style="display:block;">
+    <select disabled>
+        <option selected disabled>Please select a video</option>
+        <option value="https://media.w3.org/2010/05/sintel/trailer.mp4">Trailer (mp4)</option>
+        <option value="https://storage.googleapis.com/shaka-demo-assets/angel-one/dash.mpd">Angel One (dash)</option>
+        <option value="https://storage.googleapis.com/shaka-demo-assets/bbb-dark-truths-hls/hls.m3u8">Dark Truths (hls)</option>
+    </select>
+</label>
+<script src="https://cdn.dashjs.org/latest/dash.all.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+<script src="index.js"></script>
+</body>
+</html>
